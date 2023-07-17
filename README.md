@@ -8,7 +8,7 @@ This is a simple weather dashboard application that allows users to search for w
 
 To run the application, follow these steps:
 
-Open the following URL in a web browser : .
+Open the following URL in a web browser : https://youngobz.github.io/Weather-Dashboard/ .
 Enter the name of a city in the search input field and click the "Search" button to view the weather details.
 Note: The application requires an internet connection to fetch weather data from the OpenWeatherMap API.
 
