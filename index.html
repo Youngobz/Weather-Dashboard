@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <script src="./assets/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </header>
+    <section class="detail-section">
+        <div class="search-container">
+            <div>
+                <form class="search-city-form" onsubmit="onSearchSubmitted(event)">
+                    <h2 for="searchCity">Search for a City:</h2>
+                    <input id="searchCity" type="text" placeholder="search city" />
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <hr>
+            <div class="searched-city-container">
+                <ul class="searched-city-list">
+                </ul>
+            </div>
+        </div>
+        <div class="detail-container hide">
+            <div id="current-date-details" class="todays-details">
+                <h3>Atlanta (9/13/2022)</h3>
+                <i class="sun-icon">
+                    <img src="./assets/sun.png" />
+                </i>
+                <div>Temp: 76.62*F</div>
+                <div>Wind: 8.43 MPH</div>
+                <div>Humidity: 44 %</div>
+            </div>
+            <h4 class="five-days-heading">5-Day Forecast</h4>
+            <div id="card-view-details" class="card-view-container">
+                <div class="card-view">
+                    <h3>9/13/2022</h3>
+                    <i class="sun-icon">
+                        <img src="./assets/sun.png" />
+                    </i>
+                    <div>Temp: 76.62*F</div>
+                    <div>Wind: 8.43 MPH</div>
+                    <div>Humidity: 44 %</div>
+                </div>
+                <div class="card-view">
+                    <h3>9/13/2022</h3>
+                    <i class="sun-icon">
+                        <img src="./assets/sun.png" />
+                    </i>
+                    <div>Temp: 76.62*F</div>
+                    <div>Wind: 8.43 MPH</div>
+                    <div>Humidity: 44 %</div>
+                </div>
+                <div class="card-view">
+                    <h3>9/13/2022</h3>
+                    <i class="sun-icon">
+                        <img src="./assets/sun.png" />
+                    </i>
+                    <div>Temp: 76.62*F</div>
+                    <div>Wind: 8.43 MPH</div>
+                    <div>Humidity: 44 %</div>
+                </div>
+                <div class="card-view">
+                    <h3>9/13/2022</h3>
+                    <i class="sun-icon">
+                        <img src="./assets/sun.png" />
+                    </i>
+                    <div>Temp: 76.62*F</div>
+                    <div>Wind: 8.43 MPH</div>
+                    <div>Humidity: 44 %</div>
+                </div>
+                <div class="card-view">
+                    <h3>9/13/2022</h3>
+                    <i class="sun-icon">
+                        <img src="./assets/sun.png" />
+                    </i>
+                    <div>Temp: 76.62*F</div>
+                    <div>Wind: 8.43 MPH</div>
+                    <div>Humidity: 44 %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
