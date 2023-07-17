@@ -1,17 +1,21 @@
-#Weather Dashboard
+# Weather Dashboard
+
 This is a simple weather dashboard application that allows users to search for weather details of different cities. It fetches weather data from the OpenWeatherMap API and displays the current weather and a 5-day forecast for the selected city.
 
-##Code Explanation
+## Code Explanation
+
 The code consists of HTML, CSS, and JavaScript files that work together to create the weather dashboard application.
 
-##HTML Structure
+## HTML Structure
+
 The HTML structure defines the layout and elements of the weather dashboard. It consists of a header, a section for displaying weather details, and a search container.
 
 The header contains the title of the dashboard.
 The search container includes a form with an input field and a search button for users to enter and submit a city name.
 The section for displaying weather details contains two main elements: current-date-details and card-view-details. The current-date-details element displays the current weather details for the selected city, while the card-view-details element displays a 5-day forecast with individual cards for each day.
 
-##JavaScript (script.js)
+## JavaScript (script.js)
+
 The JavaScript code contains the logic and functionality of the weather dashboard.
 
 Global Variables: It defines global variables that store API URLs, API keys, and DOM elements used in the code.
@@ -29,10 +33,12 @@ renderListOfCities(cityList = []): This function renders the list of searched ci
 renderCityData(cityName): This function is called when a searched city is clicked from the list. It retrieves the weather data for the selected city from localStorage and updates the UI accordingly.
 initializePage(): This function initializes the weather dashboard by loading the list of previously searched cities and rendering the appropriate weather details if available.
 
-##CSS (styles.css)
+## CSS (styles.css)
+
 The CSS file contains the styles that define the appearance and layout of the weather dashboard elements. It uses various selectors and properties to customize the look and feel of the header, search container, weather details section, and individual cards.
 
-#Getting Started
+# Getting Started
+
 To run the application, follow these steps:
 
 Open the following URL in a web browser : .
