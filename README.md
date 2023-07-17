@@ -2,7 +2,9 @@
 
 This is a simple weather dashboard application that allows users to search for weather details of different cities. It fetches weather data from the OpenWeatherMap API and displays the current weather and a 5-day forecast for the selected city.
 
-#@ Getting Started
+![Main page](<./screenshots/Main page.jpg>)
+
+## Getting Started
 
 To run the application, follow these steps:
 
